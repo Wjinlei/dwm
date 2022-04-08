@@ -1,6 +1,6 @@
-## My build dwm
-
 这是我编译的dwm,补丁完美无冲突.
+
+默认`master`分支没有透明效果，如果想要透明效果可使用`alpha`分支
 
 ## 补丁列表
 
@@ -18,4 +18,3 @@
 - [dwm-statuscmd-20210405-67d76bd.diff](./patch/dwm-statuscmd-20210405-67d76bd.diff)
 - [dwm-systray-6.3.diff](./patch/dwm-systray-6.3.diff)
 - [dwm-viewontag-20210312-61bb8b2.diff](./patch/dwm-viewontag-20210312-61bb8b2.diff)
-
