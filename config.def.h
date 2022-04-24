@@ -14,9 +14,9 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray             = 1;   /* 0 means no systray */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
 static const char *fonts[]          = { 
-    "JetBrainsMono Nerd Font Mono:size=14",
+    "JetBrainsMono Nerd Font Mono:size=15",
     "JoyPixels:size=14:antialias=true:autohint=true" };
-static const char dmenufont[]       = "JetBrainsMono Nerd Font Mono:size=14";
+static const char dmenufont[]       = "JetBrainsMono Nerd Font Mono:size=15";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
