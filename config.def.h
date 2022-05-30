@@ -14,19 +14,23 @@ static const int showsystray        = 1;        /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
-static const char *fonts[]          = { 
-    "JetBrainsMono Nerd Font Mono:size=16",
-    "JoyPixels:size=14:antialias=true:autohint=true" };
-static const char dmenufont[]       = "JetBrainsMono Nerd Font Mono:size=16";
+static const char *fonts[]          = {
+    "JetBrainsMono Nerd Font Mono:size=11:antialias=true:autohint=true",
+    "Hack Nerd Font:size=11:antialias=true:autohint=true",
+    "RobotoMono Nerd Font:size=11:antialias=true:autohint=true",
+    "SauceCodePro Nerd Font Mono:size=11:antialias=true:autohint=true",
+    "FiraCode Nerd Font Mono:size=11:antialias=true:autohint=true",
+    "JoyPixels:size=8:antialias=true:autohint=true" };
+static const char dmenufont[]       = "JetBrainsMono Nerd Font Mono:size=11";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#43A5F5";
+static const char col_cyan[]        = "#282a36";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  "#00BFFF"  },
+	[SchemeSel]  = { col_gray4, col_cyan,  "#282a36"  },
 };
 
 /* tagging */
