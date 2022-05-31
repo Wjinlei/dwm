@@ -14,13 +14,13 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray             = 1;   /* 0 means no systray */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
 static const char *fonts[]          = {
-    "JetBrainsMono Nerd Font Mono:size=11:antialias=true:autohint=true",
-    "Hack Nerd Font:size=11:antialias=true:autohint=true",
-    "RobotoMono Nerd Font:size=11:antialias=true:autohint=true",
-    "SauceCodePro Nerd Font Mono:size=11:antialias=true:autohint=true",
-    "FiraCode Nerd Font Mono:size=11:antialias=true:autohint=true",
-    "JoyPixels:size=8:antialias=true:autohint=true" };
-static const char dmenufont[]       = "JetBrainsMono Nerd Font Mono:size=11";
+    "JetBrainsMono Nerd Font Mono:size=10:antialias=true:autohint=true",
+    "RobotoMono Nerd Font:size=10:antialias=true:autohint=true",
+    "Hack Nerd Font:size=10:antialias=true:autohint=true",
+    "BlexMono Nerd Font Mono:size=10:antialias=true:autohint=true",
+    "SauceCodePro Nerd Font Mono:size=10:antialias=true:autohint=true",
+    "JoyPixels:size=9:antialias=true:autohint=true" };
+static const char dmenufont[]       = "SauceCodePro Nerd Font Mono:size=11";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
