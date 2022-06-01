@@ -1817,8 +1817,8 @@ run(void)
 
 void
 runAutostart(void) {
-	system("cd ~/bin/dwm.script; ./blocking.sh");
-	system("cd ~/bin/dwm.script; ./init.sh &");
+	system("cd ~/.bin/dwm.script; ./blocking.sh");
+	system("cd ~/.bin/dwm.script; ./init.sh &");
 }
 
 void
