@@ -37,11 +37,11 @@ static const char *colors[][3]      = {
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 /* launcher commands (They must be NULL terminated) */
-static const char* chrome[]      = { "google-chrome-stable", "www.google.com", NULL };
+static const char* github[]      = { "google-chrome-stable", "www.github.com", NULL };
 
 static const Launcher launchers[] = {
        /* command       name to display */
-	{ chrome,         "Google" },
+	{ github,         "Github" },
 };
 
 /* Lockfile */
@@ -95,7 +95,7 @@ static const char *scratchpadcmd[] = { "st", "-t", scratchpadname, "-g", "120x34
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_w,      spawn,          {.v = chrome } },
+	{ MODKEY,                       XK_w,      spawn,          {.v = github } },
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_grave,  togglescratch,  {.v = scratchpadcmd } },
