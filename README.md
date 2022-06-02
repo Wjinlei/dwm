@@ -2,7 +2,7 @@
 
 这是我编译的`dwm`，补丁完美无冲突。
 
-## 补丁列表
+## patches
 
 - [dwm-alpha-6.3.diff](./patch/dwm-alpha-6.3.diff)
 - [dwm-alpha-systray-6.3.diff](./patch/dwm-alpha-systray-6.3.diff)
@@ -20,6 +20,5 @@
 - [dwm-statuscmd-20210405-67d76bd.diff](./patch/dwm-statuscmd-20210405-67d76bd.diff)
 - [dwm-viewontag-20210312-61bb8b2.diff](./patch/dwm-viewontag-20210312-61bb8b2.diff)
 
-## 没图我说个锤子
-
-![desktop.png](./desktop.png)
+## Screenshot
+![preview](./preview.png)
