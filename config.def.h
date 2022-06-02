@@ -146,6 +146,11 @@ static Key keys[] = {
 	{ 0, XF86XK_AudioNext,        spawn, SHCMD("mpc next; pkill -RTMIN+1 dwmblocks") },
 	{ 0, XF86XK_AudioPlay,        spawn, SHCMD("mpc play; pkill -RTMIN+1 dwmblocks") },
 	{ 0, XF86XK_AudioStop,        spawn, SHCMD("mpc stop; pkill -RTMIN+1 dwmblocks") },
+	{ 0, XK_Delete,               spawn, SHCMD("mpc pause; pkill -RTMIN+1 dwmblocks") },
+	{ 0, XK_Page_Up,              spawn, SHCMD("mpc prev; pkill -RTMIN+1 dwmblocks") },
+	{ 0, XK_Page_Down,            spawn, SHCMD("mpc next; pkill -RTMIN+1 dwmblocks") },
+	{ 0, XK_Home,                 spawn, SHCMD("mpc play; pkill -RTMIN+1 dwmblocks") },
+	{ 0, XK_End,                  spawn, SHCMD("mpc stop; pkill -RTMIN+1 dwmblocks") },
 };
 
 /* button definitions */
