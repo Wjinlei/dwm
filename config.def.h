@@ -7,21 +7,21 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const Gap default_gap        = {.isgap = 1, .realgap = 1, .gappx = 1};
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
-static const int topbar             = 0;        /* 0 means bottom bar */
+static const int topbar             = 1;        /* 0 means bottom bar */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayspacing = 2;   /* systray spacing */
 static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display systray on the first monitor, False: display systray on the last monitor*/
 static const int showsystray             = 1;   /* 0 means no systray */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
 static const char *fonts[]          = {
-    "FiraCode Nerd Font Mono:size=16:antialias=true:autohint=true",
-    "SauceCodePro Nerd Font Mono:size=16:antialias=true:autohint=true",
-    "JetBrainsMono Nerd Font Mono:size=16:antialias=true:autohint=true",
+    "FiraCode Nerd Font Mono:size=10:antialias=true:autohint=true",
+    "SauceCodePro Nerd Font Mono:size=10:antialias=true:autohint=true",
+    "JetBrainsMono Nerd Font Mono:size=10:antialias=true:autohint=true",
     "RobotoMono Nerd Font:size=10:antialias=true:autohint=true",
     "Hack Nerd Font:size=10:antialias=true:autohint=true",
     "BlexMono Nerd Font Mono:size=10:antialias=true:autohint=true",
     "JoyPixels:size=9:antialias=true:autohint=true" };
-static const char dmenufont[]       = "FiraCode Nerd Font Mono:size=14";
+static const char dmenufont[]       = "FiraCode Nerd Font Mono:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
@@ -31,8 +31,8 @@ static const unsigned int baralpha = 0xd0;
 static const unsigned int borderalpha = OPAQUE;
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  "#282a36" },
+	[SchemeNorm] = { col_gray3, col_gray1, col_cyan },
+	[SchemeSel]  = { col_gray4, col_cyan, col_gray2 },
 };
 static const unsigned int alphas[][3]      = {
 	/*               fg      bg        border     */
