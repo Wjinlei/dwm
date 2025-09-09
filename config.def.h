@@ -16,12 +16,7 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const Bool viewontag         = True;     /* Switch view on tag switch */
 static const char *fonts[]          = {
     "FiraCode Nerd Font Mono:size=16:antialias=true:autohint=true",
-    "SauceCodePro Nerd Font Mono:size=16:antialias=true:autohint=true",
-    "JetBrainsMono Nerd Font Mono:size=16:antialias=true:autohint=true",
-    "RobotoMono Nerd Font:size=16:antialias=true:autohint=true",
-    "Hack Nerd Font:size=16:antialias=true:autohint=true",
-    "BlexMono Nerd Font Mono:size=16:antialias=true:autohint=true",
-    "JoyPixels:size=12:antialias=true:autohint=true" };
+    "Noto Color Emoji:size=12:antialias=true:autohint=true" };
 static const char dmenufont[]       = "FiraCode Nerd Font Mono:size=16";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
